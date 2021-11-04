@@ -1,0 +1,865 @@
+****** install notes ******
+First make sure you back up your files before adding any new code!
+****************************************
+*** Smoke Chimney & Plane Crash. ***
+*** Adding Smoke To All Chimney Of Chernarus. *** By Mostabdel ***
+*** Adding Fire & Smoke To All Plane Crash Of Chernarus. *** By Mostabdel ***
+*** Adding Fire & Smoke To Appartement Plane Crash Of Chernogorsk City. *** By Mostabdel ***
+****************************************
+For New Entry - Place anywhere in the file (I prefer near the top). in file *** cfgeffectarea.json *** mpmissions\dayzOffline.chernarusplus\cfgeffectarea.json.
+if you add it in the end of file dont forget to delete "," in the last "}".
+****************************************
+
+This Will Make All Chimney Have Smoke & Plane Crash Have Fire+Smoke To Your Chernarus Map In All Industriel Area With Chimney & Plane Crash.
+
+	{ 	"AreaName": "single-smoke-chimney1",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 14178.249, 38.807, 13071.750 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/weapon_shot_m4a1_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney2",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 13053.200, 41.978, 10110.122 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 12459.575, 57.614, 14163.690 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney4",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 12138.450, 76.452, 14286.306 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney5",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 12059.509, 63.282, 14376.907 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney6",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 11227.716, 78.810, 14368.620 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney7",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 13118.024, 41.837, 7076.360 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney8",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 10429, 41.796, 2617.550 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney9",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 10101.829, 41.944, 1849.426 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney10",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 12369.399, 71.172, 14222.950 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney11",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 7826.090, 41.450, 3057.228 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney12",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 7373.231, 41.928, 3342.587 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney13",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 7186.744, 55.537, 2868.110 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney14",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 3717.012, 226.401, 13005.599 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney15",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 11279.456, 224.675, 12264.820 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney16",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 12342.650, 59.447, 14276.257 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney17",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 11964.099, 56.864, 14263.845 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney18",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 11574.274, 79.306, 14508.720 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney19",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 10434.250, 35.891, 2593.239 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney20",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 10138.334, 35.891, 1865.994 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney21",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 7681.469, 36.274, 3204.352 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney22",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 2615.190, 51.338, 1270.467 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney23",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 4114.900, 354.417, 8970.867 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney24",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 3818.489, 217.330, 13044.341 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney25",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 7685.441, 151.619, 12603.947 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_generic_wreck"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney26",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 12918.950, 64.667, 10004.500 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney27",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 10383.838, 64.819, 2542.634 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney28",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 7241.578, 64.864, 3252.516 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "single-smoke-chimney29",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 4549.830, 386.225, 10827.401 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 50, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "Cherno-fire-at-Appartement",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 6546.594, 30.639, 2336.597 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 5,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 5, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 1,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/fire_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+	{ 	"AreaName": "Cherno-fire-smoke-at-Appartement",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "effecttrigger",
+			"Data": { 
+				"Pos": [ 6546.594, 30.639, 2336.597 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 5,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 5, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 1,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "Avion-fire-1",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "SphereTrigger",
+			"Data": { 
+				"Pos": [ 4904.434, 11.957, 2575.453 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 5,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 5, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/fire_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+	{ 	"AreaName": "Avion-fire-smoke-1",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "SphereTrigger",
+			"Data": { 
+				"Pos": [ 4904.434, 11.957, 2575.453 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 5,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 5, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "Avion-fire-2",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "SphereTrigger",
+			"Data": { 
+				"Pos": [ 12192.700, 143.041, 12491.111 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 5,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 5, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/fire_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+	{ 	"AreaName": "Avion-fire-smoke-2",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "SphereTrigger",
+			"Data": { 
+				"Pos": [ 12192.700, 143.041, 12491.111 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 5,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 5, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "Avion-fire-3",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "SphereTrigger",
+			"Data": { 
+				"Pos": [ 4036.562, 342.227, 10903.799 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 5,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 5, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/fire_bonfire"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
+	{ 	"AreaName": "Avion-fire-smoke-3",    
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "SphereTrigger",
+			"Data": { 
+				"Pos": [ 4036.562, 342.227, 10903.799 ],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 5,
+				"OuterRingToggle": false, 
+				"OuterPartDist": 5, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
+			}
+		},
